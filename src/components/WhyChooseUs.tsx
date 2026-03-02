@@ -58,7 +58,7 @@ export default function WhyChooseUs() {
               <div className="absolute inset-0 tread-pattern" />
               <div className="relative">
                 <h3 className="text-5xl md:text-6xl font-bold gradient-text mb-2">
-                  10+
+                  25+
                 </h3>
                 <p className="text-xl text-muted mb-8">Years of Experience</p>
 
