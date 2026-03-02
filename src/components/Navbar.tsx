@@ -42,7 +42,7 @@ export default function Navbar() {
             </span>
             <span className="flex items-center gap-2">
               <MapPin size={14} />
-              123 Tyre Avenue, Lagos, Nigeria
+              Progress Block A1, Shop 013, African Tire Village, Trade Fair, Lagos
             </span>
           </div>
           <div className="flex items-center gap-4">

@@ -26,8 +26,14 @@ const contactInfo = [
   },
   {
     icon: MapPin,
-    title: "Address",
-    value: "123 Tyre Avenue, Ikeja, Lagos, Nigeria",
+    title: "Location 1",
+    value: "Progress Block A1, Shop 013, African Tire Village, Trade Fair, Lagos",
+    link: "#",
+  },
+  {
+    icon: MapPin,
+    title: "Location 2",
+    value: "No. 29 Enuowa Street, Lagos Island, Lagos",
     link: "#",
   },
   {
@@ -144,9 +150,14 @@ export default function Contact() {
               <div className="relative text-center p-6">
                 <MapPin size={40} className="text-primary mx-auto mb-3" />
                 <p className="text-sm text-muted">
-                  123 Tyre Avenue, Ikeja
+                  Progress Block A1, Shop 013
                   <br />
-                  Lagos, Nigeria
+                  African Tire Village, Trade Fair, Lagos
+                  <br />
+                  <br />
+                  No. 29 Enuowa Street
+                  <br />
+                  Lagos Island, Lagos
                 </p>
                 <a
                   href="https://maps.google.com"
