@@ -8,7 +8,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Fuji Tyres | Premium Tyres & Expert Fitting Services",
+  title: "Fuji Tyres | Premium Tyres, Rims & Expert Consultation",
+  icons: {
+    icon: "/favicon.svg",
+  },
   description:
     "Your trusted destination for premium tyres, expert consultation, and tyre inspection. Quality brands, competitive prices, and personalised advice for every vehicle.",
   keywords: [
