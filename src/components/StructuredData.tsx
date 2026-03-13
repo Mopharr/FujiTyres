@@ -102,6 +102,7 @@ export default function StructuredData() {
   const faqPage = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
+    name: "Fuji Tyres - Frequently Asked Questions",
     mainEntity: faqs.map((faq) => ({
       "@type": "Question",
       name: faq.question,
